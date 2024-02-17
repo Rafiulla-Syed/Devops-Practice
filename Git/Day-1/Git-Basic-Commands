@@ -1,17 +1,126 @@
 Setting up the User Name and user email & password
--------------------------------------------------------------
+-------------------------------------------------------------------------------------------
+We can use this commands for Setup credentials
+
+
 git config --global user.name "Enter your name"
 git config --global user.email "Enter your Email"
 git config --global user.Password "Enter your Password"
 
-----------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+
+
 How to Remove the saved password & Credentials
 
-We can use this commands for deleted the saved credentials
 
----------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------
+We can use this commands for remove the saved credentials
 
 git config --global --unset user.name
+git config --global --unset user.email
+git config --global --unset user.password
 
-You can use same commands for all replace the strings
+"You can use same commands for all replace the strings at the end"
+------------------------------------------------------------------------------------------------------
 
+How to Find the Configuration lists in git
+-------------------------------------------------------------------------------------------------------------
+
+
+We can use this command for finding conifiguration
+
+git config --list
+
+-------------------------------------------
+
+
+Baiscs - Commands
+
+--------------------------
+
+git init -- We can use this command for intialzing the empty repository
+
+git status -- We can use this command for tracking the file changes the file are tracked and untracked
+
+git clone <Remote Repository URL> -- We can use this command for downlaoding & copying the whole repositiry in our local system from the remote repo
+
+git add <filename> -- We can use this command for adding our files from workspace to  staging or index area
+
+There are different type of file in our workspace so, if we want to add the all files at a time. We can use the below commands 
+
+git add . (or) git add * (or) git add -A
+
+git commit -m "type a sample message" -- we can use this commmand for "commiting our changes from staging area to local repo"
+
+git push --- we can use this command for "pushing our changes from local to Remote repository"
+
+git push origin --- Suppose if you have two branches if you want to push your changes into the specific branch you can use this below commands
+
+    * git push origin <branch-name>
+    
+    * git push origin <specific barnch URL>
+
+
+ 
+ -----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+ Linux Basic Commands for Creating Files
+
+ ----------------------------------------------------------
+
+ touch <fileName> --- we can use this command for creating the empty file
+
+ touch {fileName,fileName2,..........,.....} ---- We can use this command for creating the multiple files
+
+ Cat > <file name> --- We can use this command for creating file and write the content one time. After writing the text Press "ctrl + D"
+
+ Cat >> >fileName> --- We can use this command for creating file and edit the content on the exisiting file. After writing the text Press "ctrl + D"
+ 
+ Vi <fileName> ---- We can use this command for creating file and edit the content and delete the content and modify the content and you can see the content in vi editor
+
+
+Vi editor stpes:
+
+ * vi <fileName>
+
+ *Press Esc button
+
+ * Press "I" now you are in insert mode 
+
+ * Now you can edit the content what ever you want!!
+
+ * After that Press Escape button
+
+ * Press "Shift"
+
+ * Press Shift
+  
+ * Enter- :wq!
+
+ * Click on enter
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Linux Basic Commands for Creating the Directories
+
+--------------------------------------------------
+
+mkdir <Name>-- we can use this command for creating the empty directory
+
+mkdir d1/d2/d3 ---  we can use this command for creating the nested directory 
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Linux Basic Commands for Removing the Directories and file
+
+------------------------------------------------------------
+rm <fileName>--removing the file
+
+rm -rf <fileName>-- recursive force removing the file without any question
+
+rmdir <DirName> -- we can use this command for deleting the directory
+
+rm -rf <DirName> -- suppose if you have a files in your directory u can't delete the directory. so for that you can use this command deleting the directory directly without removing the files
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
