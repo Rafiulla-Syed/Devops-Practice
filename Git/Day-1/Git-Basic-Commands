@@ -1,0 +1,17 @@
+Setting up the User Name and user email & password
+-------------------------------------------------------------
+git config --global user.name "Enter your name"
+git config --global user.email "Enter your Email"
+git config --global user.Password "Enter your Password"
+
+----------------------------------------------------------------
+How to Remove the saved password & Credentials
+
+We can use this commands for deleted the saved credentials
+
+---------------------------------------------------------------
+
+git config --global --unset user.name
+
+You can use same commands for all replace the strings
+
