@@ -60,6 +60,20 @@ git push origin --- Suppose if you have two branches if you want to push your ch
     
     * git push origin <specific barnch URL>
 
+git log --> we can use this command for able to see the commit id's
+
+git shoow --> we can use this command for see the files pushed
+
+git branch -- we can see the list of branches in our workspace
+
+git checkout <barnch name>--- we can navigate to the one branch to another branch for using this commaand
+
+git checkbout -b <branch name> directly we can checkout into the branch with the help of this command
+
+
+
+
+
 
  
  -----------------------------------------------------------------------------------------------------------------------------------------------------------
