@@ -1,0 +1,44 @@
+Aliasing
+------------------------------------------
+Alias is nothing but you can use the any name istead of actual statis commands you can push and commit the chnages with your edited commands
+
+Examples :
+
+1.git status -- > git config --global alias.s "status"
+
+2.git pull --> git config --global alias.p "push"
+
+3.git commit --> git config --global alias.cmt "commit -m" "sample-commit"
+
+4.git add --> git config --glbal alias.a "add"
+----------------------------------------------------------------------------------------------------------------
+
+Alias Removal :
+----------------------------------------------------------------------------------------------------------------
+git config --gloabl --unset alias.s 
+
+--------------------------------------------------------------------------------------------------------------------------
+
+Logs;
+
+git log --> logs show
+
+git log -n -->no of logs dispplayed
+
+git log --online -->onleine logs
+
+git log --online -n  -- no of logs in oneline
+
+git log --author= <author name> 
+
+git log --author = <author name> --oneline
+
+git log --author =<author name> -- online -n 
+
+git log --author= <author name> -n 
+
+git --grep = label 
+
+---------------------------------------------------------------------------------------------
+
+
