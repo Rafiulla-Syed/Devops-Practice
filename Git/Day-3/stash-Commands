@@ -20,3 +20,11 @@ DROP = delete
 =============
 git stash drop
 git stash drop stash@{x}
+
+
+Merge Vs Rebase
+
+Merge -- If we merge the code one branch into the another branch you wil get the merge commit id and all the information related to merged
+
+Rebase --- If we rebase the you can get all the changes without any 'Commit Id"
+
