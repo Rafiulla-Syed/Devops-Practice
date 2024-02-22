@@ -1,0 +1,68 @@
+Jenkins Installation on windows machine-
+
+-----------------------------------------------------------------------------------------------------
+
+Steps :
+
+1.Click on the https://www.jenkins.io/download/
+2.Select Windows
+3.Click on next --- all the steps
+4.Type localhost:8080/ in browser
+5.It will ask intial admin password 
+6.Got to This PC -->Program Data--> (Example :C:\ProgramData\Jenkins\.jenkins\secrets)
+7.Click on initialadmin password
+8.Copy the password and paste in the jenkins browser
+9.Click on installed suggested plugins
+10.After that setup a user name and change the password with the easy rememberable password
+---------------------------------------------------------------------------------------------------------------
+
+Jenkins Installation on linux machine-
+
+-----------------------------------------------------------------------
+Steps:
+
+Run these command on your linux server
+
+1.yum install wget -y
+
+2.sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+  
+3.sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
+
+4.yum install fontconfig java-17-openjdk
+
+5.yum install jenkins
+
+6.To verify jenkins & jdk is installed or not hit this commands (java --version , jenkins --version)
+
+7.hostname -I
+8.Run this on the browser hostanme (your hostname:8080/)
+------------------------------------------------------------------------------------------------------------------
+Trouble shooting on windows:
+------------------------------
+Steps:
+1.Go to windows serach button
+2.Type jenkins 
+3.Click on jenkins on restart the services
+----------------------------------------------------------------------------------------------------------
+Trouble shooting on Linux Machine:
+-----------------------------------
+1.Check the firewall status (service firewalld status)
+2.Check the service status  (service jenkins status)
+3.Stop the firewall if it is enable (service firewalld stop)
+4.Start the jenkins services (service jenkins start)
+5.Apply the booting process for jenkins server & firewall (systemctl enable jenkins),(systemctl disable firewalld)
+6.Copy the path and paste on the linux server 
+7.Copy the password and paste on the password field
+8.Click on initialadmin password
+9.Copy the password and paste in the jenkins browser
+10.Click on installed suggested plugins
+11.After that setup a user name and change the password with the easy rememberable password
+
+
+
+
+
+
+
+
